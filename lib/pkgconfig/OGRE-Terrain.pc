@@ -1,0 +1,11 @@
+prefix=$(SRCROOT)
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: OGRE-Terrain
+Description: Outdoor terrain component for OGRE
+Version: 1.10.0unstable
+Requires: OGRE = 1.10.0unstable , OGRE-Paging = 1.10.0unstable
+Libs: -L${libdir} -lOgreTerrainStatic
+Cflags: -I${includedir}/OGRE/Terrain -pthread
