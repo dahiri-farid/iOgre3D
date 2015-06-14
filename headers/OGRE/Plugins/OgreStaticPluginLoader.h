@@ -46,7 +46,7 @@ Description: Utility class to load plugins statically
 #  include "OgreGLESPlugin.h"
 #endif
 #ifdef OGRE_STATIC_GLES2
-#  include "OgreGLES2Plugin.h"
+#  include "GLES2/OgreGLES2Plugin.h"
 #endif
 #ifdef OGRE_STATIC_Direct3D9
 #  include "OgreD3D9Plugin.h"
