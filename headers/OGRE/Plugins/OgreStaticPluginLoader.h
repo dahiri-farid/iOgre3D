@@ -28,7 +28,7 @@ Description: Utility class to load plugins statically
 #  include "CgProgramManager/OgreCgPlugin.h"
 #endif
 #ifdef OGRE_STATIC_OctreeSceneManager
-#  include "Octree/SceneManager/OgreOctreePlugin.h"
+#  include "OctreeSceneManager/OgreOctreePlugin.h"
 #endif
 #ifdef OGRE_STATIC_ParticleFX
 #  include "ParticleFX/OgreParticleFXPlugin.h"
