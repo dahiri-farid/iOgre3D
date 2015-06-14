@@ -25,16 +25,16 @@ Description: Utility class to load plugins statically
 #include "OgreConfigFile.h"
 // Static plugin headers
 #ifdef OGRE_STATIC_CgProgramManager
-#  include "OgreCgPlugin.h"
+#  include "CgProgramManager/OgreCgPlugin.h"
 #endif
 #ifdef OGRE_STATIC_OctreeSceneManager
-#  include "OgreOctreePlugin.h"
+#  include "Octree/SceneManager/OgreOctreePlugin.h"
 #endif
 #ifdef OGRE_STATIC_ParticleFX
-#  include "OgreParticleFXPlugin.h"
+#  include "ParticleFX/OgreParticleFXPlugin.h"
 #endif
 #ifdef OGRE_STATIC_BSPSceneManager
-#  include "OgreBspSceneManagerPlugin.h"
+#  include "BSPSceneManager/OgreBspSceneManagerPlugin.h"
 #endif
 #ifdef OGRE_STATIC_GL
 #  include "OgreGLPlugin.h"
@@ -55,10 +55,10 @@ Description: Utility class to load plugins statically
 #  include "OgreD3D11Plugin.h"
 #endif
 #ifdef OGRE_STATIC_PCZSceneManager
-#  include "OgrePCZPlugin.h"
+#  include "PCZSceneManager/OgrePCZPlugin.h"
 #endif
 #ifdef OGRE_STATIC_OctreeZone
-#  include "OgreOctreeZonePlugin.h"
+#  include "OctreeZone/OgreOctreeZonePlugin.h"
 #endif
 
 namespace Ogre
